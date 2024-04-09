@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Стартовый шаблон</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<header class="header">
+	<div class="container">
+		<div class="header__row">
+			<div class="logo">Logo</div>
+			<button class="mobile-nav-btn">
+				<div class="nav-icon"></div>
+			</button>
+
+			<div class="dropdownMenu-container">
+				<details class="dropdown">
+					<summary role="button">
+						<a class="button">Button</a>
+					</summary>
+					<ul class='menu-list' id='menuList'></ul>
+				</details>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="mobile-nav">
+	<ul class="mobile-nav__list" id="mobile-nav__list">
+		<li><a href="#" class="active">Home</a></li>
+		<li><a href="#!">Services</a></li>
+		<li><a href="#!">About</a></li>
+		<li><a href="#!">Projects</a></li>
+		<li><a href="#!">Contact</a></li>
+	</ul>
+</div>
+
+
+		<main class="main" id="main">
+	<div class="container">
+		<div class="main__inner">
+			<div class="main__top">
+				<div class="models__container" id='brands__list'>
+
+				</div>
+
+				<div class="content">
+
+					<div class="block__select">
+						<div class="block__filter-text">
+
+							<span class='filter__text' id='minFilterText'>0</span>
+							<span class='filter__text' id='maxFilterText'>1.000.000</span>
+
+						</div>
+						<input type="range" min='0' max='1000000' step='500' id='selectFilter'
+							class='select-range'>
+					</div>
+
+					<div class="block__result">
+
+						<span id='filterResult'></span>
+
+					</div>
+
+					<div class="confirm__block">
+						<button class='confirm__btn' id='confirmValue'>Confirm</button>
+						<div class="confirmed__result">
+							<span class='confirmed__span' id='confirmedValue'></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+
+		<footer class="footer">
+	<div class="container">
+		<h2>Footer</h2>
+	</div>
+</footer>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

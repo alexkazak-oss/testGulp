@@ -1,0 +1,243 @@
+{
+	//Window
+	"window.zoomLevel": -1,
+	"editor.insertSpaces": false,
+	"editor.folding": false,
+	"editor.glyphMargin": false,
+	"window.density.editorTabHeight": "compact",
+	"workbench.activityBar.location": "top",
+
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.enableDragAndDrop": false,
+	"files.defaultLanguage": "",
+	"files.autoSave": "afterDelay",
+
+	// Scroll page
+	"editor.minimap.enabled": false,
+	"editor.minimap.autohide": false,
+	"editor.minimap.maxColumn": 40,
+
+	"editor.smoothScrolling": true,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.scrollbar.horizontalScrollbarSize": 10,
+	"editor.scrollbar.verticalScrollbarSize": 12,
+
+	"editor.detectIndentation": false,
+	"editor.hover.enabled": false,
+	"editor.renderWhitespace": "none",
+	"editor.lineHeight": 28,
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.cursorBlinking": "expand",
+	"editor.language.colorizedBracketPairs": [],
+	"editor.snippetSuggestions": "bottom",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+
+	// Auto closing tags
+
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+
+	"workbench.settings.applyToAllProfiles": [
+		"files.autoSave",
+		"html.autoClosingTags",
+		"html.autoCreateQuotes",
+		"html.completion.attributeDefaultValue",
+		"html.customData",
+		"html.format.contentUnformatted",
+		"html.format.enable",
+		"html.format.extraLiners"
+	],
+	"files.insertFinalNewline": true,
+	"git.enableSmartCommit": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"workbench.iconTheme": "catppuccin-perfect-sequoia",
+
+	// Tabs
+	"indentRainbow.colors": [],
+	"editor.renderLineHighlight": "gutter",
+	"editor.tabSize": 2,
+
+	// Wrapping & Fonts
+	"editor.wordWrap": "bounded",
+	"editor.fontVariations": true,
+	"editor.fontSize": 14,
+	"editor.wrappingIndent": "same",
+	"editor.largeFileOptimizations": false,
+	"editor.fontFamily": "'Courier New', Consolas, monospace",
+	"editor.wordWrapColumn": 80,
+
+	"security.workspace.trust.enabled": false,
+
+	// Определяет должен ли редактор отображать управляющие символы
+	"editor.renderControlCharacters": false,
+
+	"liveServer.settings.donotVerifyTags": true,
+	"oneDarkPro.vivid": true,
+	"cSpell.userWords": [
+		"gsap",
+		"loder",
+		"swiper",
+		"usestate",
+		"Свайп",
+		"свайпа"
+	],
+
+	"html.format.contentUnformatted": "",
+	"html-css-class-completion.enableEmmetSupport": true,
+	"html-to-css-autocompletion.triggerCharacters": true,
+	"prettier.enableDebugLogs": true,
+	"prettier.endOfLine": "auto",
+	"prettier.htmlWhitespaceSensitivity": "strict",
+	"diffEditor.maxFileSize": 0,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.tabFocusMode": true,
+	"indentRainbow.tabmixColor": "",
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+
+	// круглые скобки в одном единственном параметре
+	"prettier.arrowParens": "avoid",
+
+	// Определяет будет ли редакотор прокручиваться за пределы последней строки
+	"editor.scrollBeyondLastLine": true,
+
+	// Reanme tags
+	"editor.linkedEditing": true,
+
+	// Скорость с которой показывается подсказка
+	"editor.quickSuggestionsDelay": 0,
+
+	// Одинарные ковычки вместо двойных в HTML
+	"html.completion.attributeDefaultValue": "singlequotes",
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.bracketSameLine": false,
+	"html.format.wrapLineLength": 0,
+	"json.format.keepLines": true,
+	"html.format.maxPreserveNewLines": null,
+
+	//Breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+
+	//JS TS
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+	"typescript.suggest.paths": true,
+
+	"[js, ts, jsx]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// Frormat
+
+	"cSpell.language": "en, ru",
+	"cSpell.autoFormatConfigFile": true,
+
+	"cSpell.enabled": true,
+	"cSpell.enableFiletypes": [
+		"blade",
+		"jsx",
+		"tsx",
+		"ts",
+		"js",
+		"scss",
+		"sass",
+		"vue",
+		"html",
+		"css"
+	],
+	"css.format.spaceAroundSelectorSeparator": true,
+	"less.format.spaceAroundSelectorSeparator": true,
+	"editor.formatOnPaste": true,
+	"html.format.indentInnerHtml": true,
+	"auto-rename-tag.activationOnLanguage": ["*"],
+
+	"[scss, saas]": {
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+	},
+
+	"[html]": {
+		"editor.defaultFormatter": "mohd-akram.vscode-html-format"
+	},
+
+	//eCss
+	"ecsstractor_port.bem_nesting": true,
+	"ecsstractor_port.add_comment": false,
+	"ecsstractor_port.indentation": " ",
+	"ecsstractor_port.brackets": false,
+	"prettier.semi": false,
+	"javascript.inlayHints.parameterTypes.enabled": true,
+	"scss.format.spaceAroundSelectorSeparator": true,
+	"auto-close-tag.excludedTags": [
+		"area",
+		"base",
+		"br",
+		"col",
+		"command",
+		"embed",
+		"hr",
+		"img",
+		"input",
+		"keygen",
+		"link",
+		"meta",
+		"param",
+		"source",
+		"track",
+		"wbr"
+	],
+	"html.format.preserveNewLines": false,
+	"js/ts.implicitProjectConfig.target": "ESNext",
+	"javascript.suggest.jsdoc.generateReturns": false,
+	"html-css-class-completion.JavaScriptLanguages": [
+		"javascript",
+		"javascriptreact",
+		"typescriptreact"
+	],
+	"cSpell.spellCheckOnlyWorkspaceFiles": true,
+	"diffEditor.experimental.useVersion2": false,
+	"powershell.pester.codeLens": false,
+	"editor.inlayHints.enabled": "off",
+
+	"cSpell.customDictionaries": {
+		"custom-dictionary-user": {
+			"name": "custom-dictionary-user",
+			"path": "~/.cspell/custom-dictionary-user.txt",
+			"addWords": true,
+			"scope": "user"
+		}
+	},
+	"git.confirmSync": false,
+	"workbench.colorTheme": "Catppuccin Mocha",
+	// "editor.fontLigatures": true,
+
+	// уберает подсказки в параметрах функций
+	"git.autofetch": true,
+	"git.openRepositoryInParentFolders": "never",
+	"symbols.hidesExplorerArrows": false,
+	"remote.tunnels.alwaysUpdateCLI": true
+}
