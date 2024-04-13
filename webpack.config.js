@@ -5,6 +5,7 @@ const config = {
 		mobileNav: './src/js/modules/mobile-nav.js',
 		prMenu: './src/js/modules/progressiveMenu.js',
 		counterPrice: './src/js/modules/counterPrice.js',
+		graph: './src/js/modules/graph.js',
 	},
 	output: {
 		filename: '[name].bundle.js',

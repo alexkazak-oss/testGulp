@@ -41,44 +41,52 @@
 
 
 		<main class="main" id="main">
-	<div class="main__side-section">
+	 <div class="main__side-section">
 
-		<div class="side__content">
-			<div class="models__container" id='brands__list'>
+	<div class="side__content">
+		<div class="models__container" id='brands__list'>
 
-			</div>
+		</div>
 
-			<div class="block__select">
-				<div class="block__filter-text">
+		<div class="block__select">
+			<div class="block__filter-text">
 
-					<span class='filter__text' id='minFilterText'>0</span>
-					<span class='filter__text' id='maxFilterText'>1.000.000</span>
-
-				</div>
-				<input type="range" min='0' max='1000000' step='500' id='selectFilter'
-					class='select-range'>
-			</div>
-
-			<div class="block__result">
-
+				<span class='filter__text' id='minFilterText'>0</span>
 				<span id='filterResult'></span>
+				<span class='filter__text' id='maxFilterText'>1.000.000</span>
 
 			</div>
+			<input type="range" min='0' max='1000000' step='500' id='selectFilter'
+				class='select-range'>
+		</div>
 
-			<div class="confirm__block">
-				<button class='confirm__btn' id='confirmValue'>Confirm</button>
-				<div class="confirmed__result">
-					<span class='confirmed__span' id='confirmedValue'></span>
-				</div>
+		<div class="confirm__block">
+			<button class='confirm__btn' id='confirmValue'>Confirm</button>
+			<div class="confirmed__result">
+				<span class='confirmed__span' id='confirmedValue'></span>
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="main__inner">
-			<div class="main__top">
-			</div>
+</div>
+
+
+	<div class="main__inner">
+
+		<div class="main__top">
+			<div class="graph">
+	<div class="graph__content">
+		<div class="graph__block" id='graphBlock'>
+			<div class="graph__scale" id='graphScale'></div>
 		</div>
 	</div>
+	<div class="graph__grid">
+
+	</div>
+</div>
+
+		</div>
+	</div>
+
 </main>
 
 		<footer class="footer">
